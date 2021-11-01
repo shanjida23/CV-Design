@@ -1,0 +1,127 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'Zen Antique', serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: white;
+    margin: 0 auto; 
+    padding: 20px;
+}
+header{
+
+}
+
+.image{
+
+    width: 100px;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 50px;
+    float: left;
+    
+
+
+}
+
+
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: rgb(230, 30, 170);
+}
+
+.header-contract{
+    float: right;
+    padding: 30px
+}
+
+.header-contract a{
+    text-decoration: none;
+    color: rgb(255, 0, 128);
+    font-weight: bold;
+}
+
+.header-contract a:hover{
+    text-decoration: underline;
+    color: maroon;
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border:solid 3px; 
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+.content {
+ 
+}
+
+.left{
+    float: left;
+    width: 30%;
+}
+
+.right{
+    float: left;
+    width:70%;
+}
+
+.hr{
+    border: solid 1px ;
+}
+.h{
+
+        border: solid 1px;}
+        
+        
+       .d-right{
+           float: left;
+           width: 35%;
+       }
+.ri{
+    float: right;
+    width: 35%;
+}
+
+.footer{
+
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+
+    .footer a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+       word-spacing: 1rem;
+
+    }
+
+    
+    .footer a:hover{
+        background-color: forestgreen;
+        color: rgb(255, 0, 179);
+    }
+
+    .footer p:hover{
+        background-color: gainsboro;
+        color: goldenrod;
+        display: inline;
+    }
+    
